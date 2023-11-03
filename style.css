@@ -1,0 +1,70 @@
+:root {
+    --font-family-vietnam: 'Be Vietnam Pro', sans-serif;
+    --vietnam-400: 400;
+    --vietnam-500: 500;
+    --vietnam-700: 700;
+    --vietnam-800: 800; 
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-family-vietnam);
+    margin: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Body */
+
+.search-ip {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.input-search {
+    font-size: 1.8rem;
+}
+
+.text-p {
+    font-size: 2rem;
+}
+
+.result-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    padding: 2rem;
+}
+
+/* Buttons */
+
+.btn {
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    font-weight: var(--vietnam-700);
+    font-family: var(--font-family-vietnam);
+}
+
+/* Footer */
+
+.footer {
+    background-color: cadetblue;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
